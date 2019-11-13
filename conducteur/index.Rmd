@@ -1,0 +1,128 @@
+---
+title: "Ateliers"
+subtitle: "Construire une feuille de route open data pour l'enseignement supérieur"
+author: "AMUE / Datactivist"
+date: "14 novembre 2019"
+output:
+  SlidesDatactivist::moon_reader:
+    css: [default, datactivist, datactivist-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: ["macros.js", "https://platform.twitter.com/widgets.js"]
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>`
+params:
+  event: Atelier AMUE
+  slug: amue
+---
+
+layout: true
+
+<style>
+.remark-slide-number {
+  position: inherit;
+}
+
+.remark-slide-number .progress-bar-container {
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  display: block;
+  left: 0;
+  right: 0;
+}
+
+.remark-slide-number .progress-bar {
+  height: 100%;
+  background-color: #e95459;
+}
+
+</style>
+
+
+`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='100px'></center></span></div>")` 
+
+
+---
+
+class: center, middle
+
+Ces slides en ligne : `r paste0("http://datactivist.coop/", params$slug, "/conducteur")`
+
+Sources : `r paste0("https://github.com/datactivist/", params$slug)`
+
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+<BR>
+<BR>
+
+![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
+
+
+---
+## La "wanted data list"
+
+Durée : 30 minutes, à remplir plutôt individuellement
+
+groupe 1 => [frama.link/amue_wanted_1](https://frama.link/amue_wanted_1)
+
+groupe 2 => [frama.link/amue_wanted_2](https://frama.link/amue_wanted_2)
+
+groupe 3 => [frama.link/amue_wanted_3](https://frama.link/amue_wanted_3)
+
+.center[![](./img/wanted.png)]
+
+
+---
+## Qualifier les données
+
+Durée : 45 minutes, à remplir en groupes
+
+groupe 1 => [frama.link/amue_qualif_1](https://frama.link/amue_qualif_1)
+
+groupe 2 => [frama.link/amue_qualif_2](https://frama.link/amue_qualif_2)
+
+groupe 3 => [frama.link/amue_qualif_3](https://frama.link/amue_qualif_3)
+
+.center[![](./img/qualif.png)]
+
+---
+## Restitution de la matrice produite par le groupe
+
+groupe 1 => [frama.link/amue_restit_1](https://frama.link/amue_restit_1)
+
+groupe 2 => [frama.link/amue_restit_2](https://frama.link/amue_restit_2)
+
+groupe 3 => [frama.link/amue_restit_3](https://frama.link/amue_restit_3)
+
+**Vos réactions ?**
+
+---
+## Conclusion en plénière
+
+- Restitution par les rapporteurs (3-4 mn par groupe)
+
+- Présentation de la matrice globale ([frama.link/amue_restit](https://frama.link/amue_restit))
+
+- Restitution rapide des matrices de prise de décision
+
+
+---
+class: inverse, center, middle
+
+# Merci !
+
+Contacts : 
+
+[joel@datactivist.coop](mailto:joel@datactivist.coop)
+
+[david.rongeat@amue.fr](mailto:david.rongeat@amue.fr)
+
+
