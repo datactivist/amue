@@ -3,7 +3,8 @@ MAINTAINER Joel Gombin <joel@datactivist.coop>
 RUN apt-get update -qq && apt-get install -y \
   git-core \
   libssl-dev \
-  libcurl4-gnutls-dev
+  libcurl4-gnutls-dev \
+  libsodium-dev
 
 RUN R -e 'install.packages("purrr", repo = "http://cran.irsn.fr/")'
 RUN R -e 'install.packages("dplyr", repo = "http://cran.irsn.fr/")'
