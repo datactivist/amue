@@ -10,4 +10,4 @@ RUN R -e "install.packages('plotly')"
 RUN R -e "remotes::install_github('bergant/airtabler')"
 
 
-CMD ["plumber.R"]
+CMD ["/app/plumber.R"]
